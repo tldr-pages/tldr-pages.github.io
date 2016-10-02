@@ -9,8 +9,6 @@ The reason this is a separate repository is to allow the url to be `tldr-pages.g
 [rather than](https://help.github.com/articles/user-organization-and-project-pages/#project-pages)
 the more verbose `tldr-pages.github.io/tldr` if it was hosted in the main repository.
 
-This site is built with the [Jekyll](https://jekyllrb.com/) static site generator.
-
 ## Credits
 
 The style of the website is the [Solo theme](https://github.com/chibicode/solo),
