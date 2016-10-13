@@ -10,21 +10,9 @@ html {
   font: 16px/1.5 Inconsolata, monospace;
 }
 
-@media (min-width: 30rem) {
-  html {
-    font-size: 20px;
-  }
-}
-
 body {
   margin: 2rem 0 5rem;
   color: #333;
-}
-
-@media (min-width: 30rem) {
-  body {
-    margin-top: 5rem;
-  }
 }
 
 a {
@@ -50,30 +38,17 @@ h1 {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 30rem) {
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-}
-
-h1 a,
-h2 a {
-  color: inherit;
-}
-
 h2 {
   margin-top: 2rem;
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
 
-@media (min-width: 30rem) {
-  h2 {
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
+h2 a {
+  color: #555;
+  font-family: Inconsolata, monospace;
+  margin-left: -1rem;
+  visibility: hidden;
 }
 
 h3, h4, h5, h6 {
@@ -214,4 +189,31 @@ iframe#twitter-widget-0 {
   border-width: 1px 0;
   border-style: dotted;
   border-color: rgba(255,255,255,.7);
+}
+
+@media (min-width: 30rem) {
+  html {
+    font-size: 20px;
+  }
+
+  body {
+    margin-top: 5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 40rem) {
+  h2 a {
+    visibility: visible;
+  }
 }
