@@ -7,3 +7,5 @@ hosted at **https://tldr-pages.github.io/**.
 
 The style of the website is the [Solo theme](https://github.com/chibicode/solo),
 available under the [MIT License](https://chibicode.mit-license.org/).
+
+THANK YOU....
