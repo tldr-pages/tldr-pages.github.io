@@ -15,6 +15,22 @@ body {
   color: #333;
 }
 
+* {
+    scrollbar-color: #606060 #181818;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #606060;
+}
+
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
