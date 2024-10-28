@@ -12,9 +12,17 @@ html {
 
 body {
   margin: 2rem 0 5rem;
-  color: #333;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
-
+:root{
+  --primary-color:#fff;
+  --secondary-color: #000;
+}
+.dark_theme{
+  --primary-color:#111;
+  --secondary-color: #fff;
+}
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
@@ -29,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, monospace;
   margin: 0 0 0.5rem -0.1rem; /* align left edge */
   line-height: 1;
-  color: #111;
+  color: var(--secondary-color);
   text-rendering: optimizeLegibility;
 }
 
@@ -43,7 +51,14 @@ h2 {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
-
+#icon{
+  height: 30px;
+  width: 30px;
+  display: inline-flex;
+  cursor: pointer;
+  margin-left: 50px;
+  padding-top: 75px;
+}
 h2 a {
   color: #555;
   font-family: Inconsolata, monospace;
@@ -152,8 +167,8 @@ iframe#twitter-widget-0 {
 }
 
 .github-corner {
-  fill: #151513;
-  color: #fff;
+  fill: var(--secondary-color);
+  color: var(--primary-color);
   position: fixed;
   top: 0;
   border: 0;
