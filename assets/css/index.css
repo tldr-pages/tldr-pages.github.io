@@ -15,14 +15,17 @@ body {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+
 :root{
   --primary-color:#fff;
   --secondary-color: #000;
 }
+
 .dark_theme{
   --primary-color:#111;
   --secondary-color: #fff;
 }
+
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
@@ -52,6 +55,7 @@ h2 {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
+
 #icon{
   height: 30px;
   width: 30px;
@@ -60,6 +64,7 @@ h2 {
   margin-left: 50px;
   padding-top: 75px;
 }
+
 h2 a {
   color: #555;
   font-family: Inconsolata, monospace;
